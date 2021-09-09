@@ -1,0 +1,162 @@
+body{
+
+    background: linear-gradient(rgb(17, 69, 98),rgb(118, 255, 198));
+
+    background-image:rgba(0, 204, 255, 0.205); ;
+  
+    margin-left: 5px;
+  
+    padding:2%;
+  
+
+  
+  }
+  
+  canvas{
+  
+    background-image: rgba(0, 204, 255, 0.205);;
+  
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 800px;
+  
+  }
+  
+  input{
+  
+    font-size: 1.3em;
+  
+    text-align:center;
+  
+    border: 2px solid black;
+  
+  }
+  
+  h1{
+  
+    background: linear-gradient(rgb(17, 69, 98),rgb(118, 255, 198));
+  
+   color: black;
+    
+    font-family:perpetua;
+
+    text-align:center;
+  
+    font-size:3.5em;
+  
+    text-shadow:0 0 15px black;
+  
+  }
+
+  h5{
+
+    font-size:3.5em;
+
+    color: whitesmoke;
+
+     text-shadow: 0 0 30px;
+    text-align: left;
+    margin-top: inherit;
+  }
+  
+  h3{
+
+    font-size:3.5em;
+    color: whitesmoke;
+    text-shadow: 0 0 30px;
+    text-align: right;
+  }
+  #Comenzar{
+  
+    font-size:2.5em;
+  
+    color:black;
+
+    text-align: center;
+
+    font-family:perpetua;
+  
+    text-shadow: 0 0 20px black;
+  
+  }
+  
+  #veri{
+  
+    font-size:1em;
+  
+    border: 2px solid rgb(41, 41, 71);
+  
+    border-radius: 4px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    display: block;
+    width: 400px;
+
+    text-align:center;
+  
+    box-shadow: 0 0 20px #4f9;
+  
+  }
+  
+  button{
+  
+    box-shadow: 0 0 20px rgba(0, 204, 255, 0.205);
+
+    font-family: perpetua;
+    text-align:center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 90px;
+  
+  }
+  
+  #gana{
+  
+    text-shadow: 5px 5px 8px black;
+  
+    cursor: default;
+  
+    position: absolute;
+  
+    top: -40px;
+  
+    left: 0;
+  
+    right: 0;
+  
+    bottom: 0;
+  
+    height: 100px;
+  
+    font-family: perpetua;
+  
+    font-size: 30px;
+  
+    color: black;
+  
+    text-align: center;
+  
+    line-height: 100px;
+  
+  }
+  
+  @keyframes bounce{
+  
+    100% {
+  
+      top: -20px;
+  
+    }
+  }
